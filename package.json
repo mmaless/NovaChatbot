@@ -1,0 +1,24 @@
+{
+  "name": "novachatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "train": "node train.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmaless/NovaChatbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmaless/NovaChatbot/issues"
+  },
+  "homepage": "https://github.com/mmaless/NovaChatbot#readme",
+  "dependencies": {
+    "node-nlp": "^4.26.0"
+  }
+}
