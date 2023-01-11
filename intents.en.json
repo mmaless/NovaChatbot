@@ -808,15 +808,201 @@
       "answers": ["Sorry, I don't understand"]
     },
     {
-      "intent": "curriculum",
+      "name": "AdmissionsRequirements",
       "utterances": [
-        "Can you provide me with more information about what courses are included in the curriculum for this program?",
-        "What is the curriculum for the program?"
+        "What are the admissions requirements for the program?",
+        "What qualifications are needed to enroll in the program?",
+        "What do I need to meet in order to be accepted into the program?"
       ],
-      "answers": [
-        "The program includes subjects such as business intelligence, data analytics, project management and agility, programming using Java, software analysis and design, and the option to study either French or English as a foreign language. Additionally, the curriculum includes courses that focus on personal and professional development, research workshops, and term projects. In the second year, students have the opportunity to take a variety of elective courses, such as innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced artificial intelligence, sustainable information systems, and user interface and user experience design.",
+      "responses": [
+        "To enroll, you must hold a Bachelor in Information Technologies or an equivalent title (minimum 3 years of study), as well as a certification of English proficiency at B2 level."
+      ]
+    },
+    {
+      "name": "Curriculum",
+      "utterances": [
+        "What is the curriculum for the program?",
+        "What courses will I be taking in the program?",
+        "What kind of subjects will I be studying?"
+      ],
+      "responses": [
         "The curriculum for the program includes courses in business intelligence, data analytics, project management and agility, advanced programming in Java, software analysis and design, and foreign language (French or English). It also includes professionalization courses in soft skills and personal development, research workshops, and term projects. In the second year, students can choose from a range of courses in innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, and user interface and user experience."
       ]
-    }
+    },
+    {
+      "name": "Format",
+      "utterances": [
+        "What is the format of the program (online, on-campus, hybrid)?",
+        "Is the program online or in-person?",
+        "How is the program structured?"
+      ],
+      "responses": [
+        "The program is on-campus."
+      ]
+    },
+    {
+      "name": "Duration",
+      "utterances": [
+        "How long is the program?",
+        "What is the length of the program?",
+        "How many years is the program?"
+      ],
+      "responses": [
+        "The program is a 2-year program."
+      ]
+    },
+    { "name": "FinancialAid",
+    "utterances": [
+      "What kind of financial aid or scholarships are available for the program?",
+      "Are there any grants or scholarships available?",
+      "Can I get any financial assistance to attend the program?"
+    ],
+    "responses": [
+      "Eiffel scholarships are available at the national level, with an internal deadline usually in November of the previous year. A prize of around 500 euros is awarded by the Faculty of IT to first-class students during the first year of the master."
+    ]
+  },
+  {
+    "name": "JobPlacementRate",
+    "utterances": [
+      "What is the job placement rate for graduates of the program?",
+      "How successful are graduates at finding jobs?",
+      "What kind of career opportunities are available for graduates of the program?"
+    ],
+    "responses": [
+      "The program mentions that all MIAGE graduate students have a unique combination of technical and business skills, which guarantees a high employability in the software or consulting sector. Typical positions held by MIAGE graduate students are business analyst, management and IT consultant, IT project management, BI consultant, big data consultant, software analyst, data analyst, innovative software architect, and software entrepreneur."
+    ]
+  },
+  {
+    "name": "Faculty",
+    "utterances": [
+      "What is the faculty like in the program?",
+      "Who will be teaching the program?",
+      "What are the qualifications of the professors?"
+    ],
+    "responses": [
+      "The program is organized by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science."
+    ]
+  },
+  {
+    "name": "Facilities",
+    "utterances": [
+      "What are the facilities and resources like for the program?",
+      "What kind of equipment and resources will I have access to?",
+      "Are there any special features or resources provided for the program?"
+    ],
+    "responses": [
+      "The program does not mention any specific facilities or resources."
+    ]
+  },
+  {
+    "name": "Comparison",
+    "utterances": [
+      "How does the program compare to similar programs at other institutions?",
+      "What sets this program apart from others?",
+      "What makes this program unique compared to others?"
+    ],
+    "responses": [
+      "The program mentions that MIAGE programs, of which this program is one, are run by more than 20 universities in France."
+    ]
+  },
+  {
+    "name": "Accreditation",
+    "utterances": [
+      "Is the program accredited?",
+      "What are the accreditations of the program?",
+      "What kind of recognition does the program have?"
+    ],
+    "responses": [
+      "The program does not mention whether it is accredited."
+    ]
+  },
+  {
+    "name": "ApplicationProcess",
+    "utterances": [
+      "What is the application process for the program?",
+      "How do I apply for the program?",
+      "What are the steps to enroll in the program?"
+    ],
+    "responses": [
+      "The program does not mention the application process."
+    ]
+  },
+  {"name": "ApplicationDeadline",
+  "utterances": [
+    "When is the application deadline for the program?",
+    "When do I need to apply by?",
+    "When is the cut-off date for the program's application?"
+  ],
+  "responses": [
+    "The program does not mention the application deadline."
+  ]
+},
+{
+  "name": "CampusVisit",
+  "utterances": [
+    "Is it possible to visit the campus or attend an information session to learn more about the program?",
+    "Can I tour the campus?",
+    "Are there any events or open houses for the program?"
+  ],
+  "responses": [
+    "The program does not mention whether it is possible to visit the campus or attend an information session."
+  ]
+},
+{
+  "name": "FullTimePartTime",
+  "utterances": [
+    "Is the program full-time or part-time?",
+    "How many hours a week is the program?",
+    "Can I attend the program while working?"
+  ],
+  "responses": [
+    "The program is full-time."
+  ]
+},
+{
+  "name": "Internship",
+  "utterances": [
+    "Are internships or practical experience opportunities available as part of the program?",
+    "Will I be able to gain real-world experience?",
+    "Are there any opportunities for hands-on learning?"
+  ],
+  "responses": [
+    "Yes, there is an internship opportunity available in the fourth semester, which is a 5-month internship in a company followed by a final examination."
+  ]
+},
+{
+  "name": "StudentFacultyRatio",
+  "utterances": [
+    "What is the student-to-faculty ratio in the program?",
+    "How many students are in each class?",
+    "What is the class size?"
+  ],
+  "responses": [
+    "The program does not mention the student-to-faculty ratio."
+  ]
+},
+{
+  "name": "Enrollment",
+  "utterances": [
+    "How many students are enrolled in the program?",
+    "What is the enrollment size?",
+    "How big is the program?"
+  ],
+  "responses": [
+    "The program does not mention how many students are enrolled."
+  ]
+},
+{
+  "name": "Competitive",
+  "utterances": [
+    "Is the program competitive to get into?",
+    "How selective is the program?",
+    "What are the acceptance rates for the program?"
+  ],
+  "responses": [
+    "The program does not mention whether it is competitive to get into."
+  ]
+}
+
   ]
 }
