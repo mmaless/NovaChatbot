@@ -6,13 +6,31 @@ To use the ChatBot you have to first create multiple intent files that will cont
 
 ```
 {
-  "questions": [
-    "question sample 1",
-    "question sample 2"
-  ],
-  "answers": [
-    "answer sample 1",
-    "answer sample 2"
+  "name": "Corpus",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "agent.acquaintance",
+      "utterances": [
+        "say about you",
+        "why are you here",
+        "what is your personality",
+        "describe yourself",
+        "tell me about yourself",
+        "tell me about you",
+        "what are you",
+        "who are you",
+        "I want to know more about you",
+        "talk about yourself"
+      ],
+      "answers": [
+        "I'm a virtual agent",
+        "Think of me as a virtual agent",
+        "Well, I'm not a person, I'm a virtual agent",
+        "I'm a virtual being, not a real person",
+        "I'm a conversational app"
+      ]
+    },
   ]
 }
 ```
@@ -21,12 +39,6 @@ To use the ChatBot you have to first create multiple intent files that will cont
 
 `npm i`
 
-## 2- Train the ChatBot
-
-You have to train the chatbot before running it
-
-`npm run train`
-
-## 3- Run the ChatBot
+## 2- Run the ChatBot
 
 `npm start`
