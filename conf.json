@@ -2,7 +2,26 @@
   "settings": {
     "nlp": {
       "corpora": ["./intents.en.json", "./intents.fr.json"]
+    },
+    "console": {
+      "debug": true
+    },
+    "api-server": {
+      "port": 3000,
+      "serveBot": true
+    },
+    "msbf": {
+      "apiPath": "",
+      "messagesPath": "/api/messages",
+      "appId": "<YOUR MICROSOFT BOT APP ID>",
+      "appPassword": "<YOUR MICROSOFT BOT PASSWORD>"
     }
   },
-  "use": ["Basic"]
+  "use": [
+    "Basic",
+    "ConsoleConnector",
+    "ExpressApiServer",
+    "DirectlineConnector",
+    "MsbfConnector"
+  ]
 }
