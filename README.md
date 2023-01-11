@@ -17,12 +17,16 @@ To use the ChatBot you have to first create multiple intent files that will cont
 }
 ```
 
-## Train the ChatBot
+## 1- Install Modules
+
+`npm i`
+
+## 2- Train the ChatBot
 
 You have to train the chatbot before running it
 
 `npm run train`
 
-## Run the ChatBot
+## 3- Run the ChatBot
 
 `npm start`
