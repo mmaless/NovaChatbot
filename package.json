@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/mmaless/NovaChatbot#readme",
   "dependencies": {
-    "@nlpjs/basic": "^4.26.0"
+    "@nlpjs/basic": "^4.26.0",
+    "@nlpjs/express-api-server": "^4.26.0"
   }
 }

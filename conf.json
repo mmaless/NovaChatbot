@@ -1,0 +1,8 @@
+{
+  "settings": {
+    "nlp": {
+      "corpora": ["./intents.en.json", "./intents.fr.json"]
+    }
+  },
+  "use": ["Basic"]
+}

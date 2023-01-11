@@ -3,7 +3,6 @@ const { dockStart } = require('@nlpjs/basic');
 (async () => {
   const dock = await dockStart({ use: ['Basic'] });
   const nlp = dock.get('nlp');
-  await nlp.addCorpus('./intents.en.json');
   await nlp.train();
 
   var readline = require("readline");
@@ -14,7 +13,7 @@ const { dockStart } = require('@nlpjs/basic');
   rl.prompt();
 
   rl.on("line", async function (line) {
-    const response = await nlp.process('en', line);
+    const response = await nlp.process(line);
     console.log(response.answer);
     rl.prompt();
   }).on("close", function () {
