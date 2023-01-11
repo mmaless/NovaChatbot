@@ -20,6 +20,7 @@ To use the ChatBot you have to first create multiple intent files that will cont
 ## Train the ChatBot
 
 You have to train the chatbot before running it
+
 `npm run train`
 
 ## Run the ChatBot
