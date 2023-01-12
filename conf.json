@@ -15,19 +15,12 @@
     "api-server": {
       "port": 3000,
       "serveBot": true
-    },
-    "msbf": {
-      "apiPath": "",
-      "messagesPath": "/api/messages",
-      "appId": "<YOUR MICROSOFT BOT APP ID>",
-      "appPassword": "<YOUR MICROSOFT BOT PASSWORD>"
     }
   },
   "use": [
     "Basic",
     "ConsoleConnector",
     "ExpressApiServer",
-    "DirectlineConnector",
-    "MsbfConnector"
+    "DirectlineConnector"
   ]
 }
