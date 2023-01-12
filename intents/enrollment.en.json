@@ -1,0 +1,17 @@
+{
+  "intent": "Corpus",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "Enrollment",
+      "utterances": [
+        "How many students are enrolled in the program?",
+        "What is the enrollment size?",
+        "How big is the program?"
+      ],
+      "answers": [
+        "The program does not mention how many students are enrolled."
+      ]
+    }
+  ]
+}

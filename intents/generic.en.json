@@ -806,17 +806,6 @@
         "what should I do?"
       ],
       "answers": ["Sorry, I don't understand"]
-    },
-    {
-      "intent": "curriculum",
-      "utterances": [
-        "Can you provide me with more information about what courses are included in the curriculum for this program?",
-        "What is the curriculum for the program?"
-      ],
-      "answers": [
-        "The program includes subjects such as business intelligence, data analytics, project management and agility, programming using Java, software analysis and design, and the option to study either French or English as a foreign language. Additionally, the curriculum includes courses that focus on personal and professional development, research workshops, and term projects. In the second year, students have the opportunity to take a variety of elective courses, such as innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced artificial intelligence, sustainable information systems, and user interface and user experience design.",
-        "The curriculum for the program includes courses in business intelligence, data analytics, project management and agility, advanced programming in Java, software analysis and design, and foreign language (French or English). It also includes professionalization courses in soft skills and personal development, research workshops, and term projects. In the second year, students can choose from a range of courses in innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, and user interface and user experience."
-      ]
     }
   ]
 }

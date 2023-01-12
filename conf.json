@@ -1,7 +1,13 @@
 {
   "settings": {
     "nlp": {
-      "corpora": ["./intents.en.json", "./intents.fr.json"]
+      "corpora": [
+        "./intents/generic.en.json",
+        "./intents/generic.fr.json",
+        "./intents/program.en.json",
+        "./intents/internship.en.json",
+        "./intents/enrollment.en.json"
+      ]
     },
     "console": {
       "debug": true

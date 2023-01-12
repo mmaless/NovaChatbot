@@ -1,0 +1,157 @@
+{
+  "intent": "Corpus",
+  "locale": "en-US",
+  "data": [
+    {
+      "intent": "curriculum",
+      "utterances": [
+        "Can you provide me with more information about what courses are included in the curriculum for this program?",
+        "What is the curriculum for the program?"
+      ],
+      "answers": [
+        "The program includes subjects such as business intelligence, data analytics, project management and agility, programming using Java, software analysis and design, and the option to study either French or English as a foreign language. Additionally, the curriculum includes courses that focus on personal and professional development, research workshops, and term projects. In the second year, students have the opportunity to take a variety of elective courses, such as innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced artificial intelligence, sustainable information systems, and user interface and user experience design.",
+        "The curriculum for the program includes courses in business intelligence, data analytics, project management and agility, advanced programming in Java, software analysis and design, and foreign language (French or English). It also includes professionalization courses in soft skills and personal development, research workshops, and term projects. In the second year, students can choose from a range of courses in innovative software methods, innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, and user interface and user experience."
+      ]
+    },
+    {
+      "intent": "Format",
+      "utterances": [
+        "What is the format of the program (online, on-campus, hybrid)?",
+        "Is the program online or in-person?",
+        "How is the program structured?"
+      ],
+      "answers": ["The program is on-campus."]
+    },
+    {
+      "intent": "Duration",
+      "utterances": [
+        "How long is the program?",
+        "What is the length of the program?",
+        "How many years is the program?"
+      ],
+      "answers": ["The program is a 2-year program."]
+    },
+    {
+      "intent": "scholarships",
+      "utterances": [
+        "What kind of financial aid or scholarships are available for the program?",
+        "Are there any grants or scholarships available?",
+        "Can I get any financial assistance to attend the program?"
+      ],
+      "answers": [
+        "Eiffel scholarships are available at the national level, with an internal deadline usually in November of the previous year. A prize of around 500 euros is awarded by the Faculty of IT to first-class students during the first year of the master."
+      ]
+    },
+    {
+      "intent": "JobPlacementRate",
+      "utterances": [
+        "What is the job placement rate for graduates of the program?",
+        "How successful are graduates at finding jobs?",
+        "What kind of career opportunities are available for graduates of the program?"
+      ],
+      "answers": [
+        "The program mentions that all MIAGE graduate students have a unique combination of technical and business skills, which guarantees a high employability in the software or consulting sector. Typical positions held by MIAGE graduate students are business analyst, management and IT consultant, IT project management, BI consultant, big data consultant, software analyst, data analyst, innovative software architect, and software entrepreneur."
+      ]
+    },
+    {
+      "intent": "faculty",
+      "utterances": [
+        "What is the faculty like in the program?",
+        "Who will be teaching the program?",
+        "What are the qualifications of the professors?"
+      ],
+      "answers": [
+        "The program is organized by researchers of IRIT (Institut de Recherche en Informatique de Toulouse), one of the major French institutes in computer science."
+      ]
+    },
+    {
+      "intent": "facilities",
+      "utterances": [
+        "What are the facilities and resources like for the program?",
+        "What kind of equipment and resources will I have access to?",
+        "Are there any special features or resources provided for the program?"
+      ],
+      "answers": [
+        "The program does not mention any specific facilities or resources."
+      ]
+    },
+    {
+      "intent": "comparison",
+      "utterances": [
+        "How does the program compare to similar programs at other institutions?",
+        "What sets this program apart from others?",
+        "What makes this program unique compared to others?"
+      ],
+      "answers": [
+        "The program mentions that MIAGE programs, of which this program is one, are run by more than 20 universities in France."
+      ]
+    },
+    {
+      "intent": "accreditation",
+      "utterances": [
+        "Is the program accredited?",
+        "What are the accreditations of the program?",
+        "What kind of recognition does the program have?"
+      ],
+      "answers": ["The program does not mention whether it is accredited."]
+    },
+    {
+      "intent": "application.process",
+      "utterances": [
+        "What is the application process for the program?",
+        "How do I apply for the program?",
+        "What are the steps to enroll in the program?"
+      ],
+      "answers": ["The program does not mention the application process."]
+    },
+    {
+      "intent": "application.deadline",
+      "utterances": [
+        "When is the application deadline for the program?",
+        "When do I need to apply by?",
+        "When is the cut-off date for the program's application?"
+      ],
+      "answers": ["The program does not mention the application deadline."]
+    },
+    {
+      "intent": "campus.visit",
+      "utterances": [
+        "Is it possible to visit the campus or attend an information session to learn more about the program?",
+        "Can I tour the campus?",
+        "Are there any events or open houses for the program?"
+      ],
+      "answers": [
+        "The program does not mention whether it is possible to visit the campus or attend an information session."
+      ]
+    },
+    {
+      "intent": "campus.time",
+      "utterances": [
+        "Is the program full-time or part-time?",
+        "How many hours a week is the program?",
+        "Can I attend the program while working?"
+      ],
+      "answers": ["The program is full-time."]
+    },
+    {
+      "intent": "StudentFacultyRatio",
+      "utterances": [
+        "What is the student-to-faculty ratio in the program?",
+        "How many students are in each class?",
+        "What is the class size?"
+      ],
+      "answers": ["The program does not mention the student-to-faculty ratio."]
+    },
+    {
+      "intent": "competitive",
+      "utterances": [
+        "Is the program competitive to get into?",
+        "How selective is the program?",
+        "What are the acceptance rates for the program?"
+      ],
+      "answers": [
+        "The program does not mention whether it is competitive to get into."
+      ]
+    }
+  ]
+}
