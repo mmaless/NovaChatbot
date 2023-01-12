@@ -1,11 +1,11 @@
 const { dockStart } = require('@nlpjs/basic');
+var readline = require("readline");
 
 (async () => {
   const dock = await dockStart();
   const nlp = dock.get('nlp');
   await nlp.train();
 
-  var readline = require("readline");
   var rl = readline.createInterface(process.stdin, process.stdout);
 
   console.log("Chatbot started!");
@@ -14,6 +14,7 @@ const { dockStart } = require('@nlpjs/basic');
 
   rl.on("line", async function (line) {
     const response = await nlp.process(line);
+    console.log(response);
     console.log(response.answer);
     rl.prompt();
   }).on("close", function () {

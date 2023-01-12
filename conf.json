@@ -14,7 +14,8 @@
     },
     "api-server": {
       "port": 3000,
-      "serveBot": true
+      "serveBot": true,
+      "clientPath": "./public"
     }
   },
   "use": [
