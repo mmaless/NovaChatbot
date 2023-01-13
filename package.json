@@ -20,9 +20,9 @@
   "homepage": "https://github.com/mmaless/NovaChatbot#readme",
   "dependencies": {
     "@nlpjs/basic": "^4.26.0",
-    "@nlpjs/directline-connector": "^4.25.0",
+    "@nlpjs/directline-connector": "^4.26.1",
     "@nlpjs/express-api-server": "^4.26.0",
-    "@nlpjs/msbf-connector": "^4.25.0",
+    "@nlpjs/msbf-connector": "^4.26.1",
     "patch-package": "^6.5.1"
   }
 }
