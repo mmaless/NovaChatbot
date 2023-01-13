@@ -850,7 +850,7 @@
       "intent": "feeling.sad",
       "utterances": ["I feel sad", "I'm sad", "I feel bad", "I'm sick"],
       "answers": [
-        "You should seek professional help, I'm just a bot :(",
+        "You should seek professional help, I'm just a bot",
         "Sorry to hear that."
       ]
     }
