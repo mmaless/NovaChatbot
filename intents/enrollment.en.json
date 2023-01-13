@@ -1,9 +1,9 @@
 {
-  "intent": "Corpus",
+  "intent": "Enrollment-EN",
   "locale": "en-US",
   "data": [
     {
-      "intent": "Enrollment",
+      "intent": "enrollment",
       "utterances": [
         "How many students are enrolled in the program?",
         "What is the enrollment size?",

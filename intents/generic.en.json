@@ -1,7 +1,22 @@
 {
-  "name": "Corpus",
+  "name": "Generic-EN",
   "locale": "en-US",
   "data": [
+    {
+      "intent": "noanswer",
+      "utterances": [
+        "yes",
+        "no",
+        "yes, i did",
+        "no, i did",
+        "yes, i do",
+        "sure",
+        "nop",
+        "yeah",
+        "yeap"
+      ],
+      "answers": ["Ok 😀", "Cool", "Fine 😀"]
+    },
     {
       "intent": "agent.acquaintance",
       "utterances": [
@@ -27,14 +42,23 @@
     {
       "intent": "agent.age",
       "utterances": [
+        "what is your age",
+        "how old are you",
+        "are you 13",
+        "what age are you",
+        "u old?",
+        "are you a kid",
+        "are you an adult",
+        "you are a teen?",
+        "i like to know your age",
         "your age",
         "how old is your platform",
-        "how old are you",
         "what's your age",
         "I'd like to know your age",
         "tell me your age"
       ],
       "answers": [
+        "Try to guess it",
         "I'm very young",
         "I was created recently",
         "Age is just a number. You're only as old as you feel"
@@ -169,8 +193,13 @@
       ]
     },
     {
-      "intent": "agent.canyouhelp",
+      "intent": "agent.canyou",
       "utterances": [
+        "Help",
+        "Can you help me?",
+        "Please help me.",
+        "I need your help.",
+        "U can help me?",
         "can you help me now",
         "I need you to do something for me",
         "assist me",
@@ -179,10 +208,12 @@
         "you can help me"
       ],
       "answers": [
+        "Tell me the problem",
+        "With what?",
+        "You can talk to me",
         "I'll certainly try my best",
-        "Never too busy for you. Shall we chat?",
         "Sure. I'd be happy to. What's up?",
-        "I'm glad to help. What can I do for you?"
+        "I'm glad to help, What can I do for you?"
       ]
     },
     {
@@ -604,8 +635,26 @@
     },
     {
       "intent": "greetings.hello",
-      "utterances": ["hello", "hi", "howdy"],
-      "answers": ["Hey there!", "Greetings!"]
+      "utterances": [
+        "hello",
+        "hi",
+        "wassup",
+        "sup",
+        "hola",
+        "Hi there",
+        "Holla",
+        "Hey",
+        "Hello",
+        "Is anyone there",
+        "Dude"
+      ],
+      "answers": [
+        "Hey There!😁",
+        "Hello! How are you?😁",
+        "Greetings human 😁.",
+        "Hello",
+        "Hi there, how can I help?"
+      ]
     },
     {
       "intent": "greetings.howareyou",
@@ -795,6 +844,14 @@
       "answers": [
         "I probably won't be able to give you the correct answer right away",
         "I'm not sure I'll have the best answer, but I'll try"
+      ]
+    },
+    {
+      "intent": "feeling.sad",
+      "utterances": ["I feel sad", "I'm sad", "I feel bad", "I'm sick"],
+      "answers": [
+        "You should seek professional help, I'm just a bot :(",
+        "Sorry to hear that."
       ]
     }
   ]
