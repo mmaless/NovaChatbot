@@ -87,7 +87,6 @@ code {
   position: fixed;
   top: 20px;
   width: 30%;
-  padding-bottom: 40px;
 }
 .minimizable-web-chat > .chat-box.hide {
   display: none;
@@ -123,6 +122,9 @@ code {
 }
 .minimizable-web-chat > .chat-box > .react-web-chat {
   flex: 1 1;
+}
+.minimizable-web-chat > .chat-box > div {
+  height: 94% !important;
 }
 .App > img {
   width: 100%;
