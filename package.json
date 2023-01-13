@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "@nlpjs/basic": "^4.26.0",
     "@nlpjs/directline-connector": "^4.25.0",
     "@nlpjs/express-api-server": "^4.26.0",
-    "@nlpjs/msbf-connector": "^4.25.0"
+    "@nlpjs/msbf-connector": "^4.25.0",
+    "patch-package": "^6.5.1"
   }
 }
