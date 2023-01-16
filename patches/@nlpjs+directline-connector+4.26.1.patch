@@ -22,7 +22,7 @@ index 217e0d1..9ec709a 100644
 +                  } else {
 +                    if (noAnswer[conversation.conversationId] && noAnswer[conversation.conversationId] >= 1) {
 +                      noAnswer[conversation.conversationId] = 0;
-+                      result.text = "I couldn't understand your question. Kindly contact Professor Chihab Hanachi hanachi@univ-tlse1.fr for more information about the program";
++                      result.text = "I couldn't understand your question. Kindly contact the universirt for more information about the program";
 +                    } else {
 +                      noAnswer[conversation.conversationId] = 1
 +                      result.text = "Sorry, I didn't find an answer for you, can you please rephrase your question";

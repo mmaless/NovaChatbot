@@ -12,10 +12,5 @@
       "clientPath": "./public"
     }
   },
-  "use": [
-    "Basic",
-    "ConsoleConnector",
-    "ExpressApiServer",
-    "DirectlineConnector"
-  ]
+  "use": ["Basic", "ExpressApiServer", "DirectlineConnector"]
 }

@@ -912,17 +912,6 @@
       ]
     },
     {
-      "intent": "university.facilities",
-      "utterances": [
-        "What are the facilities and resources like for the program?",
-        "What kind of equipment and resources will I have access to?",
-        "Are there any special features or resources provided for the program?"
-      ],
-      "answers": [
-        "The program does not mention any specific facilities or resources."
-      ]
-    },
-    {
       "intent": "program.comparison",
       "utterances": [
         "How does the program compare to similar programs at other institutions?",
@@ -943,35 +932,6 @@
       "answers": ["The program does not mention whether it is accredited."]
     },
     {
-      "intent": "application.process",
-      "utterances": [
-        "What is the application process for the program?",
-        "How do I apply for the program?",
-        "What are the steps to enroll in the program?"
-      ],
-      "answers": ["The program does not mention the application process."]
-    },
-    {
-      "intent": "application.deadline",
-      "utterances": [
-        "When is the application deadline for the program?",
-        "When do I need to apply by?",
-        "When is the cut-off date for the program's application?"
-      ],
-      "answers": ["The program does not mention the application deadline."]
-    },
-    {
-      "intent": "campus.visit",
-      "utterances": [
-        "Is it possible to visit the campus or attend an information session to learn more about the program?",
-        "Can I tour the campus?",
-        "Are there any events or open houses for the program?"
-      ],
-      "answers": [
-        "The program does not mention whether it is possible to visit the campus or attend an information session."
-      ]
-    },
-    {
       "intent": "program.time",
       "utterances": [
         "Is the program full-time or part-time?",
@@ -981,41 +941,21 @@
       "answers": ["The program is full-time."]
     },
     {
-      "intent": "program.students",
-      "utterances": [
-        "How many students are in each class?",
-        "What is the class size?"
-      ],
-      "answers": ["The program usually include from 15 to 30 students"]
-    },
-    {
-      "intent": "program.competitive",
-      "utterances": [
-        "Is the program competitive to get into?",
-        "How selective is the program?",
-        "What are the acceptance rates for the program?"
-      ],
-      "answers": [
-        "The program does not mention whether it is competitive to get into."
-      ]
-    },
-    {
       "intent": "program.semesters",
       "utterances": [
-        "What are the courses that we will take in the program?",
-        "What are the credits for each course?",
         "How many semesters do we have?",
+        "How many semester do we have?",
         "How is the program structured?"
       ],
       "answers": [
         "The first semester of the program, titled 'Fundamentals' covers a wide range of topics including business intelligence, data analytics, project management, advanced programming, software analysis and design, foreign language (either French or English), soft skills, personal development, research workshop 1, and term project 1. The second semester, 'Towards Innovation' includes courses in business process modeling, artificial intelligence, web services, marketing and entrepreneurship, foreign language, soft skills, personal development, research workshop 2, and an internship or term project 2. The third semester, 'Innovation in IT' delves into innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, user interface and user experience, strategy and innovation, foreign language, and research workshop 3. The final semester, 'Innovation in Action' is a 5-month internship in a company, followed by a final examination and is worth 20 ECTS.",
-        "The program is divided into four semesters, each with a specific focus. The first semester, 'Fundamentals' covers a variety of topics such as business intelligence, data analytics, and programming. The second semester, 'Towards Innovation' includes courses on business process modeling, artificial intelligence, and marketing. The third semester, 'Innovation in IT' focuses on topics such as innovative data management and cybersecurity. The final semester, 'Innovation in Action' is a 5-month internship with a final examination at the end, worth 20 ECTS.",
-        "Semester 1 - Fundamentals: Business intelligence (4 ECTS), Data analytics (4 ECTS), Project management and agility (5 ECTS), Advanced programming in Java (4 ECTS), Software analysis and design (4 ECTS), Foreing language (French or English) (6 ECTS), Soft skills and personal development (4 ECTS), Research workshop 1 (2 ECTS), Term project 1 (2 ECTS). Semester 2 - Towards Innovation: Business process modeling (5 ECTS), Artificial intelligence (5 ECTS), Web services (5 ECTS), Marketing and entrepreneurship (5 ECTS), Foreing language (French or English) (6 ECTS), Soft skills and personal development (4 ECTS), Research workshop 2 (2 ECTS), Internship or term project 2 (3 ECTS). Semester 3 - Innovation in IT: Innovative data management (6 ECTS + project week) Cybersecurity (2 ECTS), Internet of things and web development (6 ECTS + project week), Advanced topics in artificial intelligence (6 ECTS + project week), Sustainable information systems (2 ECTS), User interface and user experience (2 ECTS + project week), Strategy and innovation (5 ECTS), Foreing language (French or English, 3 ECTS), Research workshop 3 (2 ECTS). Semester 4 - Innovation in Action: 5-month internship in a company, followed by a final examination (20 ECTS)"
+        "The program is divided into four semesters, each with a specific focus. The first semester, 'Fundamentals' covers a variety of topics such as business intelligence, data analytics, and programming. The second semester, 'Towards Innovation' includes courses on business process modeling, artificial intelligence, and marketing. The third semester, 'Innovation in IT' focuses on topics such as innovative data management and cybersecurity. The final semester, 'Innovation in Action' is a 5-month internship with a final examination at the end, worth 20 ECTS."
       ]
     },
     {
       "intent": "program.credits",
       "utterances": [
+        "course credit",
         "credits",
         "program credits",
         "What are the credits for each course?"
@@ -1027,6 +967,7 @@
     {
       "intent": "program.courses",
       "utterances": [
+        "how many course?",
         "courses",
         "program courses",
         "What are the courses that we will take in the program?",
@@ -1049,14 +990,96 @@
       ]
     },
     {
-      "intent": "program.enrollment",
+      "intent": "program.students",
       "utterances": [
         "How many students are enrolled in the program?",
         "What is the enrollment size?",
-        "How big is the program?"
+        "How many students are in each class?",
+        "What is the class size?"
+      ],
+      "answers": ["The program usually include from 15 to 30 students"]
+    },
+    {
+      "intent": "application.campusfrance",
+      "utterances": [
+        "how to apply from Algeria",
+        "How to apply from Argentina",
+        "How to apply from Azerbaijan",
+        "How to apply from Bahrain",
+        "How to apply from Benin",
+        "How to apply from Bolivia",
+        "How to apply from Brazil",
+        "How to apply from Burkina Faso",
+        "How to apply from Burundi",
+        "How to apply from Cambodia",
+        "How to apply from Cameroon",
+        "How to apply from Canada",
+        "How to apply from Chile",
+        "How to apply from China",
+        "How to apply from Colombia",
+        "How to apply from Comoros",
+        "How to apply from Congo",
+        "How to apply from Côte d'Ivoire",
+        "How to apply from Djibouti",
+        "How to apply from Ecuador",
+        "How to apply from Egypt",
+        "How to apply from Gabon",
+        "How to apply from Georgia",
+        "How to apply from Ghana",
+        "How to apply from Guinea",
+        "How to apply from Haiti",
+        "How to apply from Saudi Arabia",
+        "How to apply from South Africa",
+        "How to apply from United Arab Emirates",
+        "How to apply from United States",
+        "How to apply from India",
+        "How to apply from Indonesia",
+        "How to apply from Iran",
+        "How to apply from Japan",
+        "How to apply from Jordan",
+        "How to apply from Kenya",
+        "How to apply from Kuwait",
+        "How to apply from Laos",
+        "How to apply from Lebanon",
+        "How to apply from Madagascar",
+        "How to apply from Malaysia",
+        "How to apply from Mali",
+        "How to apply from Mauritania",
+        "How to apply from Mauritius",
+        "How to apply from Mexico",
+        "How to apply from Morocco",
+        "How to apply from Niger",
+        "How to apply from Nigeria",
+        "How to apply from Peru",
+        "How to apply from Qatar",
+        "How to apply from Russia",
+        "How to apply from Senegal",
+        "How to apply from Singapore",
+        "How to apply from Taiwan",
+        "How to apply from Thailand",
+        "How to apply from Togo",
+        "How to apply from Tunisia",
+        "How to apply from Turkey",
+        "How to apply from Ukraine",
+        "How to apply from United Arab Emirates",
+        "How to apply from United Kingdom",
+        "How to apply from United States",
+        "How to apply from Vietnam"
       ],
       "answers": [
-        "The program does not mention how many students are enrolled."
+        "International students from Campus France countries: apply in the local Campus France office and using the platform Etudes En France (https://pastel.diplomatie.gouv.fr/). All information on the webpage of the international relation office of the university (https://www.ut-capitole.fr/home/incoming-students/youre-not-an-exchange-student/students-holding-foreign-academic-degrees-and-applying-for-a-bachelors-degree-l2-or-l3-masters-degree-1)."
+      ]
+    },
+    {
+      "intent": "application.campusfrance",
+      "utterances": [
+        "application",
+        "application deadline",
+        "required documents",
+        "how to apply from"
+      ],
+      "answers": [
+        "International students from Campus France countries: apply in the local Campus France office and using the platform Etudes En France. All information on the webpage of the international relation office of the university.\nInternational students from EU or non-Campus France countries: Applications are usually open in March-April on the university portal which will be linked here. Interview and response in April-May.\nFrench students, or international students holding a French Bachelor degree: Applications open in April-May. Interviews and response in June.\nApplications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required - list of accepted certificates)."
       ]
     }
   ]
