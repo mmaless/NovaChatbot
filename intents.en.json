@@ -3,7 +3,7 @@
   "locale": "en-US",
   "data": [
     {
-      "intent": "noanswer",
+      "intent": "dialog.noanswer",
       "utterances": [
         "yes",
         "no",
@@ -612,7 +612,7 @@
       ]
     },
     {
-      "intent": "dialog.sorry",
+      "intent": "feeling.sorry",
       "utterances": [
         "I'm sorry",
         "my apologies",
@@ -669,7 +669,7 @@
       "answers": ["Feeling wonderful!", "Wonderful! Thanks for asking"]
     },
     {
-      "intent": "greetings.nicetomeetyou",
+      "intent": "greetings.meet",
       "utterances": [
         "nice to meet you",
         "pleased to meet you",
@@ -685,7 +685,7 @@
       ]
     },
     {
-      "intent": "greetings.nicetoseeyou",
+      "intent": "greetings.see",
       "utterances": [
         "nice to see you",
         "good to see you",
@@ -698,7 +698,7 @@
       ]
     },
     {
-      "intent": "greetings.nicetotalktoyou",
+      "intent": "greetings.talk",
       "utterances": [
         "nice to talk to you",
         "it's nice to talk to you",
@@ -769,7 +769,7 @@
       ]
     },
     {
-      "intent": "user.cannotsleep",
+      "intent": "user.sleep",
       "utterances": [
         "I'm insomniac",
         "I cannot sleep",
@@ -783,7 +783,7 @@
       ]
     },
     {
-      "intent": "user.excited",
+      "intent": "feeling.excited",
       "utterances": [
         "I'm very excited",
         "I'm thrilled",
@@ -794,16 +794,6 @@
         "I'm glad things are going your way",
         "That's great. I'm happy for you"
       ]
-    },
-    {
-      "intent": "user.likeagent",
-      "utterances": [
-        "I like you",
-        "I really like you",
-        "you're so special",
-        "I like you so much"
-      ],
-      "answers": ["Likewise!", "That's great to hear"]
     },
     {
       "intent": "user.testing",
@@ -820,21 +810,27 @@
       ]
     },
     {
-      "intent": "user.lovesagent",
+      "intent": "feeling.love",
       "utterances": [
         "love you",
         "I love you",
         "I'm in love with you",
         "I love you so much",
-        "I think I love you"
+        "I think I love you",
+        "I like you",
+        "I really like you",
+        "you're so special",
+        "I like you so much"
       ],
       "answers": [
         "Well, remember that I am a chatbot",
-        "It's not easy… I'm not a real person, I'm a chatbot"
+        "It's not easy… I'm not a real person, I'm a chatbot",
+        "Likewise!",
+        "That's great to hear"
       ]
     },
     {
-      "intent": "user.needsadvice",
+      "intent": "user.advice",
       "utterances": [
         "I need advice",
         "I need some advice",
@@ -855,7 +851,7 @@
       ]
     },
     {
-      "intent": "curriculum",
+      "intent": "program.curriculum",
       "utterances": [
         "Can you provide me with more information about what courses are included in the curriculum for this program?",
         "What is the curriculum for the program?"
@@ -866,16 +862,15 @@
       ]
     },
     {
-      "intent": "Format",
+      "intent": "program.format",
       "utterances": [
         "What is the format of the program (online, on-campus, hybrid)?",
-        "Is the program online or in-person?",
-        "How is the program structured?"
+        "Is the program online or in-person?"
       ],
       "answers": ["The program is on-campus."]
     },
     {
-      "intent": "Duration",
+      "intent": "program.duration",
       "utterances": [
         "How long is the program?",
         "What is the length of the program?",
@@ -884,7 +879,7 @@
       "answers": ["The program is a 2-year program."]
     },
     {
-      "intent": "scholarships",
+      "intent": "program.scholarships",
       "utterances": [
         "What kind of financial aid or scholarships are available for the program?",
         "Are there any grants or scholarships available?",
@@ -895,18 +890,18 @@
       ]
     },
     {
-      "intent": "JobPlacementRate",
+      "intent": "program.job",
       "utterances": [
         "What is the job placement rate for graduates of the program?",
         "How successful are graduates at finding jobs?",
         "What kind of career opportunities are available for graduates of the program?"
       ],
       "answers": [
-        "The program mentions that all MIAGE graduate students have a unique combination of technical and business skills, which guarantees a high employability in the software or consulting sector. Typical positions held by MIAGE graduate students are business analyst, management and IT consultant, IT project management, BI consultant, big data consultant, software analyst, data analyst, innovative software architect, and software entrepreneur."
+        "MIAGE graduate students have a unique combination of technical and business skills, which guarantees a high employability in the software or consulting sector. Typical positions held by MIAGE graduate students are business analyst, management and IT consultant, IT project management, BI consultant, big data consultant, software analyst, data analyst, innovative software architect, and software entrepreneur."
       ]
     },
     {
-      "intent": "faculty",
+      "intent": "university.faculty",
       "utterances": [
         "What is the faculty like in the program?",
         "Who will be teaching the program?",
@@ -917,7 +912,7 @@
       ]
     },
     {
-      "intent": "facilities",
+      "intent": "university.facilities",
       "utterances": [
         "What are the facilities and resources like for the program?",
         "What kind of equipment and resources will I have access to?",
@@ -928,7 +923,7 @@
       ]
     },
     {
-      "intent": "comparison",
+      "intent": "program.comparison",
       "utterances": [
         "How does the program compare to similar programs at other institutions?",
         "What sets this program apart from others?",
@@ -939,7 +934,7 @@
       ]
     },
     {
-      "intent": "accreditation",
+      "intent": "program.accreditation",
       "utterances": [
         "Is the program accredited?",
         "What are the accreditations of the program?",
@@ -977,7 +972,7 @@
       ]
     },
     {
-      "intent": "campus.time",
+      "intent": "program.time",
       "utterances": [
         "Is the program full-time or part-time?",
         "How many hours a week is the program?",
@@ -986,7 +981,7 @@
       "answers": ["The program is full-time."]
     },
     {
-      "intent": "StudentFacultyRatio",
+      "intent": "program.students",
       "utterances": [
         "How many students are in each class?",
         "What is the class size?"
@@ -994,7 +989,7 @@
       "answers": ["The program usually include from 15 to 30 students"]
     },
     {
-      "intent": "competitive",
+      "intent": "program.competitive",
       "utterances": [
         "Is the program competitive to get into?",
         "How selective is the program?",
@@ -1005,11 +1000,12 @@
       ]
     },
     {
-      "intent": "program.classes",
+      "intent": "program.semesters",
       "utterances": [
         "What are the courses that we will take in the program?",
+        "What are the credits for each course?",
         "How many semesters do we have?",
-        "What are the credits for each course?"
+        "How is the program structured?"
       ],
       "answers": [
         "The first semester of the program, titled 'Fundamentals' covers a wide range of topics including business intelligence, data analytics, project management, advanced programming, software analysis and design, foreign language (either French or English), soft skills, personal development, research workshop 1, and term project 1. The second semester, 'Towards Innovation' includes courses in business process modeling, artificial intelligence, web services, marketing and entrepreneurship, foreign language, soft skills, personal development, research workshop 2, and an internship or term project 2. The third semester, 'Innovation in IT' delves into innovative data management, cybersecurity, internet of things and web development, advanced topics in artificial intelligence, sustainable information systems, user interface and user experience, strategy and innovation, foreign language, and research workshop 3. The final semester, 'Innovation in Action' is a 5-month internship in a company, followed by a final examination and is worth 20 ECTS.",
@@ -1018,8 +1014,32 @@
       ]
     },
     {
-      "intent": "internship",
+      "intent": "program.credits",
       "utterances": [
+        "credits",
+        "program credits",
+        "What are the credits for each course?"
+      ],
+      "answers": [
+        "In semester 1, the course 'Business intelligence' is worth 4 ECTS, 'Data analytics' is worth 4 ECTS, 'Project management and agility' is worth 5 ECTS, 'Advanced programming in Java' is worth 4 ECTS, 'Software analysis and design' is worth 4 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 1' is worth 2 ECTS, and 'Term project 1' is worth 2 ECTS. In semester 2, the course 'Business process modeling' is worth 5 ECTS, 'Artificial intelligence' is worth 5 ECTS, 'Web services' is worth 5 ECTS, 'Marketing and entrepreneurship' is worth 5 ECTS, 'Foreing language (French or English)' is worth 6 ECTS, 'Soft skills and personal development' is worth 4 ECTS, 'Research workshop 2' is worth 2 ECTS, and 'Internship or term project 2' is worth 3 ECTS. In semester 3, the course 'Innovative data management' is worth 6 ECTS and includes a 'project week', 'Cybersecurity' is worth 2 ECTS, 'Internet of things and web development' is worth 6 ECTS and includes a 'project week', 'Advanced topics in artificial intelligence' is worth 6 ECTS and includes a 'project week', 'Sustainable information systems' is worth 2 ECTS, 'User interface and user experience' is worth 2 ECTS and includes a 'project week', 'Strategy and innovation' is worth 5 ECTS, 'Foreing language (French or English)' is worth 3 ECTS, and 'Research workshop 3' is worth 2 ECTS. In semester 4, students will complete a 5-month 'internship in a company' and take a 'final examination' worth 20 ECTS."
+      ]
+    },
+    {
+      "intent": "program.courses",
+      "utterances": [
+        "courses",
+        "program courses",
+        "What are the courses that we will take in the program?",
+        "what are the courses?"
+      ],
+      "answers": [
+        "The program is divided into four semesters, each with its own focus and objectives. In the first semester, students will cover Fundamentals, taking courses such as Business Intelligence, Data Analytics, Project Management and Agility, Advanced Programming in Java, Software Analysis and Design, and a Foreign Language (French or English). They will also take Soft Skills and Personal Development, Research Workshop 1, and Term Project 1. In the second semester, students will move on to Towards Innovation, taking courses such as Business Process Modeling, Artificial Intelligence, Web Services, Marketing and Entrepreneurship, and a Foreign Language. They will also take Soft Skills and Personal Development, Research Workshop 2, and have the option to choose between an Internship or Term Project 2. In the third semester, students will focus on Innovation in IT, taking courses such as Innovative Data Management, Cybersecurity, Internet of Things and Web Development, Advanced Topics in Artificial Intelligence, Sustainable Information Systems, User Interface and User Experience, and Strategy and Innovation. They will also take a Foreign Language and Research Workshop 3. In the fourth semester, students will complete a 5-month internship in a company and then take the final examination, which is worth 20 ECTS."
+      ]
+    },
+    {
+      "intent": "program.internship",
+      "utterances": [
+        "internship",
         "Are internships or practical experience opportunities available as part of the program?",
         "Will I be able to gain real-world experience?",
         "Are there any opportunities for hands-on learning?"
@@ -1029,7 +1049,7 @@
       ]
     },
     {
-      "intent": "enrollment",
+      "intent": "program.enrollment",
       "utterances": [
         "How many students are enrolled in the program?",
         "What is the enrollment size?",
