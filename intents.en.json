@@ -1081,6 +1081,11 @@
       "answers": [
         "International students from Campus France countries: apply in the local Campus France office and using the platform Etudes En France. All information on the webpage of the international relation office of the university.\nInternational students from EU or non-Campus France countries: Applications are usually open in March-April on the university portal which will be linked here. Interview and response in April-May.\nFrench students, or international students holding a French Bachelor degree: Applications open in April-May. Interviews and response in June.\nApplications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required - list of accepted certificates)."
       ]
+    },
+    {
+      "intent": "application.alternance",
+      "utterances": ["Is alternance an option?"],
+      "answers": ["No, there is no alternance in this program"]
     }
   ]
 }
