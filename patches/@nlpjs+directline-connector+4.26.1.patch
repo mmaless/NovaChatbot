@@ -1,5 +1,5 @@
 diff --git a/node_modules/@nlpjs/directline-connector/src/directline-controller.js b/node_modules/@nlpjs/directline-connector/src/directline-controller.js
-index 217e0d1..eff3c48 100644
+index 217e0d1..9cbf770 100644
 --- a/node_modules/@nlpjs/directline-connector/src/directline-controller.js
 +++ b/node_modules/@nlpjs/directline-connector/src/directline-controller.js
 @@ -24,6 +24,8 @@
@@ -22,7 +22,7 @@ index 217e0d1..eff3c48 100644
 +                  } else {
 +                    if (noAnswer[conversation.conversationId] && noAnswer[conversation.conversationId] >= 1) {
 +                      noAnswer[conversation.conversationId] = 0;
-+                      result.text = "I couldn't understand your question. Kindly contact the university for more information about the program";
++                      result.text = "I couldn't understand your question. You can contact the prgoram directors: 1st year: David Simoncini <david.simoncini@ut-capitole.fr>, maître de conférences, 2nd year: Chihab Hanachi <Chihab.Hanachi@ut-capitole.fr>, professeur des universités";
 +                    } else {
 +                      noAnswer[conversation.conversationId] = 1
 +                      result.text = "Sorry, I didn't find an answer for you, can you please rephrase your question";
