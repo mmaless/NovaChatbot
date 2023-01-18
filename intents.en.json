@@ -318,8 +318,11 @@
       "utterances": [
         "application",
         "application deadline",
+        "submit application",
         "required documents",
-        "how to apply from"
+        "how to apply from",
+        "enroll",
+        "How can I enroll"
       ],
       "answers": [
         "Depending on your region the process will be different. Send the bot 'Campus France' if you are from Campus France countries, send 'Europe' if you are from Europe and send 'France' if you are French students, or international students holding a French Bachelor degree. Applications consist of CV, grade transcripts, cover letter and evidence of English proficiency (CEF level B2 required)."
@@ -344,6 +347,13 @@
       "utterances": ["france", "Apply from France"],
       "answers": [
         "French students, or international students holding a French Bachelor degree: Applications open in April-May. Interviews and response in June."
+      ]
+    },
+    {
+      "intent": "application.start",
+      "utterances": ["when does the program start", "start date"],
+      "answers": [
+        "Usually the program starts in September, send 'application' to know how to apply to the program."
       ]
     },
     {
