@@ -23,6 +23,7 @@
 
 const { uuid } = require('@nlpjs/core');
 const fetch = require('node-fetch');
+const log = require("./log")
 
 const noAnswer = {};
 
@@ -195,7 +196,7 @@ class DirectlineController {
                   activity,
                 })
                 .then((nlpresult) => {
-                  console.log(nlpresult.message);
+                  log('message', 'debug', nlpresult.message);
                   if (nlpresult.answer) {
                     result.text = nlpresult.answer;
                   } else {
