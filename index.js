@@ -31,7 +31,7 @@ class DirectlineConnector extends Connector {
 
   logger(level, message) {
     if (this.settings.log) {
-      log('Connector', level, message);
+      log('Connector', 'debug', message);
     }
   }
 
