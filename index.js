@@ -3,7 +3,7 @@ const fs = require('fs');
 const formidable = require('formidable');
 const { Connector } = require('@nlpjs/connector');
 const DirectlineController = require('./directline-controller');
-
+const log = require("./log")
 
 class DirectlineConnector extends Connector {
   constructor(settings, container) {
@@ -29,9 +29,9 @@ class DirectlineConnector extends Connector {
     );
   }
 
-  log(level, message) {
+  logger(level, message) {
     if (this.settings.log) {
-      this.container.get('logger')[level](message);
+      log('Connector', level, message);
     }
   }
 
@@ -49,12 +49,12 @@ class DirectlineConnector extends Connector {
     }
 
     server.options('/directline', (req, res) => {
-      this.log('debug', `OPTIONS /directline`);
+      this.logger('debug', `OPTIONS /directline`);
       res.status(200).end();
     });
 
     server.post(`/directline/conversations`, async (req, res) => {
-      this.log('info', `POST /directline/conversations`);
+      this.logger('info', `POST /directline/conversations`);
       const result = await this.controller.createConversation();
       res.status(result.status).send(result.body);
     });
@@ -66,10 +66,6 @@ class DirectlineConnector extends Connector {
           req.query.watermark && req.query.watermark !== 'null'
             ? Number(req.query.watermark)
             : 0;
-        this.log(
-          'debug',
-          `GET /directline/conversations/:conversationId/activities`
-        );
         const result = await this.controller.getActivities(
           req.params.conversationId,
           watermark
@@ -81,10 +77,6 @@ class DirectlineConnector extends Connector {
     server.post(
       `/directline/conversations/:conversationId/activities`,
       async (req, res) => {
-        this.log(
-          'debug',
-          `POST /directline/conversations/:conversationId/activities`
-        );
         const result = await this.controller.addActivity(
           req.params.conversationId,
           req.body
@@ -94,14 +86,14 @@ class DirectlineConnector extends Connector {
     );
 
     server.post('/directline/tokens/refresh', (req, res) => {
-      this.log('trace', `POST /directline/tokens/refresh`);
+      this.logger('trace', `POST /directline/tokens/refresh`);
       res.status(200).end();
     });
 
     server.post(
       `/directline/conversations/:conversationId/upload`,
       async (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           `POST /directline/conversations/:conversationId/upload`
         );
@@ -134,14 +126,14 @@ class DirectlineConnector extends Connector {
     );
 
     server.get(`/v3/directline/conversations/:conversationId`, (req, res) => {
-      this.log('debug', `GET /v3/directline/conversations/:conversationId`);
+      this.logger('debug', `GET /v3/directline/conversations/:conversationId`);
       res.status(200).end();
     });
 
     server.post(
       `/v3/directline/conversations/:conversationId/upload`,
       (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           `POST /v3/directline/conversations/:conversationId/upload`
         );
@@ -152,7 +144,7 @@ class DirectlineConnector extends Connector {
     server.get(
       '/v3/directline/conversations/:conversationId/stream',
       (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           'GET /v3/directline/conversations/:conversationId/stream'
         );
@@ -161,19 +153,19 @@ class DirectlineConnector extends Connector {
     );
 
     server.post('/v3/conversations', (req, res) => {
-      this.log('debug', 'POST /v3/conversations');
+      this.logger('debug', 'POST /v3/conversations');
       res.status(200).end();
     });
 
     server.post('/v3/conversations/:conversationId/activities', (req, res) => {
-      this.log('debug', 'POST /v3/conversations/:conversationId/activities');
+      this.logger('debug', 'POST /v3/conversations/:conversationId/activities');
       res.status(200).end();
     });
 
     server.post(
       '/v3/conversations/:conversationId/activities/:activityId',
       async (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           'POST /v3/conversations/:conversationId/activities/:activityId'
         );
@@ -186,14 +178,14 @@ class DirectlineConnector extends Connector {
     );
 
     server.get('/v3/conversations/:conversationId/members', (req, res) => {
-      this.log('debug', 'GET /v3/conversations/:conversationId/members');
+      this.logger('debug', 'GET /v3/conversations/:conversationId/members');
       res.status(200).end();
     });
 
     server.get(
       '/v3/conversations/:conversationId/activities/:activityId/members',
       (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           'GET /v3/conversations/:conversationId/activities/:activityId/members'
         );
@@ -202,19 +194,19 @@ class DirectlineConnector extends Connector {
     );
 
     server.get('/v3/botstate/:channelId/users/:userId', (req, res) => {
-      this.log('debug', 'GET /v3/botstate/:channelId/users/:userId');
+      this.logger('debug', 'GET /v3/botstate/:channelId/users/:userId');
       res.status(200).end();
     });
 
     server.get('/v3/botstate/:channelId/users/:userId', (req, res) => {
-      this.log('debug', 'GET /v3/botstate/:channelId/users/:userId');
+      this.logger('debug', 'GET /v3/botstate/:channelId/users/:userId');
       res.status(200).end();
     });
 
     server.get(
       '/v3/botstate/:channelId/conversations/:conversationId/users/:userId',
       (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           'GET /v3/botstate/:channelId/conversations/:conversationId/users/:userId'
         );
@@ -223,14 +215,14 @@ class DirectlineConnector extends Connector {
     );
 
     server.post('/v3/botstate/:channelId/users/:userId', (req, res) => {
-      this.log('debug', 'POST /v3/botstate/:channelId/users/:userId');
+      this.logger('debug', 'POST /v3/botstate/:channelId/users/:userId');
       res.status(200).end();
     });
 
     server.post(
       '/v3/botstate/:channelId/conversations/:conversationId',
       (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           'POST /v3/botstate/:channelId/conversations/:conversationId'
         );
@@ -241,7 +233,7 @@ class DirectlineConnector extends Connector {
     server.post(
       '/v3/botstate/:channelId/conversations/:conversationId/users/:userId',
       (req, res) => {
-        this.log(
+        this.logger(
           'debug',
           'POST /v3/botstate/:channelId/conversations/:conversationId/users/:userId'
         );
@@ -250,7 +242,7 @@ class DirectlineConnector extends Connector {
     );
 
     server.delete('/v3/botstate/:channelId/users/:userId', (req, res) => {
-      this.log('debug', 'DELETE /v3/botstate/:channelId/users/:userId');
+      this.logger('debug', 'DELETE /v3/botstate/:channelId/users/:userId');
       res.status(200).end();
     });
   }
@@ -277,5 +269,5 @@ class DirectlineConnector extends Connector {
   nlp.save();
   const directLine = new DirectlineConnector(nlp);
   directLine.start();
-  console.log("Chatbot started! you can chat with the bot using this link http://localhost:3000/");
+  log("Startup", "info", "Chatbot started! you can chat with the bot using this link http://localhost:3000/");
 })();
