@@ -196,10 +196,11 @@ class DirectlineController {
                   activity,
                 })
                 .then((nlpresult) => {
-                  log('message', 'debug', nlpresult.message);
                   if (nlpresult.answer) {
                     result.text = nlpresult.answer;
+                    log('message', 'debug', `ID: ${conversation.conversationId}, question: ${nlpresult.message}, answer found, intent: ${nlpresult.intent}, intent score: ${nlpresult.score}, language: ${nlpresult.language}`);
                   } else {
+                    log('message', 'debug', `ID: ${conversation.conversationId}, question: ${nlpresult.message}, no answer, intent: ${nlpresult.intent}, intent score: ${nlpresult.score}, language: ${nlpresult.language}`);
                     if (noAnswer[conversation.conversationId] && noAnswer[conversation.conversationId] >= 1) {
                       noAnswer[conversation.conversationId] = 0;
                       result.text = "I couldn't understand your question. You can contact the prgoram directors: 1st year: David Simoncini <david.simoncini@ut-capitole.fr>, maître de conférences, 2nd year: Chihab Hanachi <Chihab.Hanachi@ut-capitole.fr>, professeur des universités";
