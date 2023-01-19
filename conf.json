@@ -1,7 +1,7 @@
 {
   "settings": {
     "nlp": {
-      "corpora": ["./intents.en.json"]
+      "corpora": ["./intents.en.json", "./intents.fr.json"]
     },
     "console": {
       "debug": true
