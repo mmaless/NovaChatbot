@@ -97,31 +97,43 @@ class DirectlineConnector extends Connector {
           'debug',
           `POST /directline/conversations/:conversationId/upload`
         );
-        const form = formidable({
-          multiples: true,
-          uploadDir: this.settings.uploadDir,
-          keepExtensions: false,
-          maxFileSize: this.settings.maxFileSize,
-        });
-        form.parse(req, async (err, fields, files) => {
-          if (err) {
-            res.status(500).send('There was an error processing the message');
-          } else {
-            const activity = JSON.parse(
-              fs.readFileSync(files.activity.path, 'utf-8')
-            );
-            activity.file = files.file;
-            const result = await this.controller.addActivity(
-              req.params.conversationId,
-              activity
-            );
-            if (this.settings.autoRemoveFiles) {
-              fs.unlinkSync(files.activity.path);
-              fs.unlinkSync(files.file.path);
-            }
-            res.status(result.status).send(result.body);
+        const activity = {
+          conversation: {
+            id: req.params.conversationId
           }
-        });
+        }
+        this.say(activity, 'Uploading files is not supported yet!');
+        // Remove ability to upload files
+
+        // this.logger(
+        //   'debug',
+        //   `POST /directline/conversations/:conversationId/upload`
+        // );
+        // const form = formidable({
+        //   multiples: true,
+        //   uploadDir: this.settings.uploadDir,
+        //   keepExtensions: false,
+        //   maxFileSize: this.settings.maxFileSize,
+        // });
+        // form.parse(req, async (err, fields, files) => {
+        //   if (err) {
+        //     res.status(500).send('There was an error processing the message');
+        //   } else {
+        //     const activity = JSON.parse(
+        //       fs.readFileSync(files.activity.path, 'utf-8')
+        //     );
+        //     activity.file = files.file;
+        //     const result = await this.controller.addActivity(
+        //       req.params.conversationId,
+        //       activity
+        //     );
+        //     if (this.settings.autoRemoveFiles) {
+        //       fs.unlinkSync(files.activity.path);
+        //       fs.unlinkSync(files.file.path);
+        //     }
+        //     res.status(result.status).send(result.body);
+        //   }
+        // });
       }
     );
 
