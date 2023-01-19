@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "patch-package"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +19,11 @@
   "homepage": "https://github.com/mmaless/NovaChatbot#readme",
   "dependencies": {
     "@nlpjs/basic": "^4.26.0",
-    "@nlpjs/directline-connector": "^4.26.1",
     "@nlpjs/express-api-server": "^4.26.0",
     "@nlpjs/msbf-connector": "^4.26.1",
-    "patch-package": "^6.5.1"
+    "@nlpjs/connector": "^4.26.1",
+    "@nlpjs/core": "^4.26.1",
+    "formidable": "^2.0.1",
+    "node-fetch": "^2.6.7"
   }
 }
