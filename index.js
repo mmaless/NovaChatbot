@@ -269,5 +269,13 @@ class DirectlineConnector extends Connector {
   nlp.save();
   const directLine = new DirectlineConnector(nlp);
   directLine.start();
+  directLine.onCreateConversation = (connector, conversation) => {
+    const activity = {
+      conversation: {
+        id: conversation.conversationId
+      }
+    }
+    connector.say(activity, 'Hello! my name is Nova, how can I help you?');
+  }
   log("Startup", "info", "Chatbot started! you can chat with the bot using this link http://localhost:3000/");
 })();
