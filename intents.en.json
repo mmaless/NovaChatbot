@@ -1,5 +1,5 @@
 {
-  "name": "Generic-EN",
+  "name": "All-EN",
   "locale": "en-US",
   "data": [
     {
@@ -222,13 +222,6 @@
       "utterances": ["teacher guide", "download teacher guide"],
       "answers": [
         "https://miage.ut-capitole.fr/medias/fichier/teachersguide_1496225970468-pdf?ID_FICHE=284273&INLINE=FALSE"
-      ]
-    },
-    {
-      "intent": "program.location",
-      "utterances": ["campus location", "campus map"],
-      "answers": [
-        "http://www.ut-capitole.fr/campus/practical-information/how-to-get-to-the-university/how-to-get-to-the-university-364795.kjsp"
       ]
     },
     {

@@ -1,0 +1,381 @@
+{
+  "name": "All-fr",
+  "locale": "fr-FS",
+  "data": [
+    {
+      "intent": "program.curriculum",
+      "utterances": [
+        "programme d'études",
+        "Pouvez-vous me fournir plus d'informations sur les cours inclus dans le programme de ce programme?",
+        "Quel est le curriculum du programme?"
+      ],
+      "answers": [
+        "Le programme comprend des matières telles que l'intelligence d'affaires, l'analyse de données, la gestion de projet et l'agilité, la programmation en utilisant Java, l'analyse et la conception de logiciels, et la possibilité d'étudier le français ou l'anglais comme langue étrangère. De plus, le programme comprend des cours axés sur le développement personnel et professionnel, des ateliers de recherche et des projets de semestre. En deuxième année, les étudiants ont la possibilité de suivre une variété de cours au choix, tels que les méthodes logicielles innovantes, la gestion innovante des données, la cybersécurité, l'internet des objets et le développement web, l'intelligence artificielle avancée, les systèmes d'information durables, l'interface utilisateur et l'expérience utilisateur. motif.",
+        "Le programme du programme comprend des cours en intelligence d'affaires, analyse de données, gestion de projet et agilité, programmation avancée en Java, analyse et conception de logiciels et langue étrangère (français ou anglais). Il comprend également des cours de professionnalisation en compétences générales et en développement personnel, des ateliers de recherche et des projets de semestre. En deuxième année, les étudiants peuvent choisir parmi une gamme de cours sur les méthodes logicielles innovantes, la gestion innovante des données, la cybersécurité, l'internet des objets et le développement web, les sujets avancés en intelligence artificielle, les systèmes d'information durables, l'interface utilisateur et l'expérience utilisateur."
+      ]
+    },
+    {
+      "intent": "program.directors",
+      "utterances": [
+        "Directeur des études",
+        "Directeurs",
+        "Les responsables du programme",
+        "contacter les professeurs",
+        "contacts programme",
+        "qui puis-je contacter?"
+      ],
+      "answers": [
+        "1ère année : David Simoncini <david.simoncini@ut-capitole.fr>, maître de conférences, 2ème année : Chihab Hanachi <Chihab.Hanachi@ut-capitole.fr>, professeur des universités"
+      ]
+    },
+    {
+      "intent": "program.goals",
+      "utterances": [
+        "Quels sont les objectifs du programme",
+        "objectifs",
+        "de quoi parle ce programme",
+        "A qui s'adresse ce programme"
+      ],
+      "answers": [
+        "Le programme Master 2IS s'adresse aux étudiants en licence en technologies de l'information (TI) souhaitant approfondir leurs connaissances sur les technologies de l'information innovantes. 2IS est organisé par des chercheurs de l'IRIT (Institut de Recherche en Informatique de Toulouse), l'un des principaux instituts français de informatique. 2IS est un Master MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises), qui est le Master de référence en France pour les technologies de l'information. Les programmes MIAGE sont portés par plus de 20 universités en France. Les technologies de l'information innovantes réinventent et transforment les entreprises . L'intelligence artificielle, le big data et l'orchestration des services Web ont un impact considérable sur les utilisateurs finaux, car l'automatisation est au cœur des processus métier.",
+        "Le programme Master 2IS s'adresse aux étudiants en Bachelor informatique qui souhaitent approfondir leur compréhension des technologies de l'information de pointe. Il est organisé par l'IRIT (Institut de Recherche en Informatique de Toulouse), un des principaux instituts français d'informatique. 2IS fait partie du programme Master MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises), un programme largement reconnu en France pour l'informatique. Les programmes MIAGE sont proposés par plus de 20 universités en France. Les technologies de l'information innovantes jouent un rôle essentiel dans la formation et la transformation des entreprises, avec des domaines tels que l'intelligence artificielle, le big data et l'orchestration des services Web ont un impact significatif sur les utilisateurs finaux, car l'automatisation devient de plus en plus centrale dans les processus métier.",
+        "Le programme 2IS offre une vision complète et unique de l'innovation dans les technologies de l'information sur une période de 2 ans, couvrant des sujets tels que les solutions logicielles innovantes, les méthodes de développement logiciel, l'innovation et l'entrepreneuriat en stratégie et en gestion. Il s'agit notamment de l'intelligence d'affaires et de la visualisation de données. , l'apprentissage automatique, l'intelligence collective, les bases de données distribuées, la gestion agile et la conception collaborative."
+      ]
+    },
+    {
+      "intent": "program.international",
+      "utterances": ["international program", "exchange program"],
+      "answers": [
+        "Il est possible de passer une partie des études à l'étranger, en fonction des programmes d'échanges mis en place entre l'Université Toulouse 1 Capitole et d'autres pays de l'UE ou étrangers. Les candidatures et les sélections se feront l'année précédant la période d'échange. Prendre contact avec le Service des Relations Internationales de l'Université si intéressé <https://www.ut-capitole.fr/accueil/universite/gouvernance/services-administratifs-et-techniques/service-commun-des-relations-europeennes-et-internationales- 1>"
+      ]
+    },
+    {
+      "intent": "program.internship",
+      "utterances": [
+        "stage",
+        "Des stages",
+        "Des stages ou des opportunités d'expérience pratique sont-ils disponibles dans le cadre du programme?",
+        "Est-ce que je pourrai acquérir une expérience du monde réel?",
+        "Existe-t-il des possibilités d'apprentissage pratique?"
+      ],
+      "answers": [
+        "Oui, il y a une opportunité de stage disponible au quatrième semestre, qui est un stage de 5 mois en entreprise suivi d'un examen final.",
+        "1ère année : le stage n'est pas obligatoire, 2ème année : Le stage est obligatoire (5 mois). Les relations entre l'étudiant, l'entreprise et l'université doivent toujours être définies par une convention de stage."
+      ]
+    },
+    {
+      "intent": "program.informationsheet",
+      "utterances": [
+        "Fiche d'information",
+        "plaquette d'information",
+        "Document d'information"
+      ],
+      "answers": [
+        "Télécharger la fiche complète via : https://www.ut-capitole.fr/medias/fichier/mastermiage-2is-2022-2023_1666706582840-pdf?ID_FICHE=33372&INLINE=FALSE"
+      ]
+    },
+    {
+      "intent": "program.format",
+      "utterances": [
+        "forme du programme",
+        "Quel est le format du programme (en ligne, sur le campus, hybride)?",
+        "Le programme est-il en ligne ou en personne?"
+      ],
+      "answers": ["Le programme est sur le campus."]
+    },
+    {
+      "intent": "program.duration",
+      "utterances": [
+        "durée du programme",
+        "années de programme",
+        "Durée du programme",
+        "Combien de temps dure le programme?",
+        "Quelle est la durée du programme?",
+        "Combien d'années dure le programme?"
+      ],
+      "answers": ["Le programme est un programme de 2 ans."]
+    },
+    {
+      "intent": "program.objectives",
+      "utterances": [
+        "objectifs du programme",
+        "objectifs",
+        "Comment ce programme peut-il m'aider"
+      ],
+      "answers": [
+        "Les technologies de l'information innovantes réinventent et transforment les entreprises. L'intelligence artificielle, le big data et l'orchestration des services Web ont un impact considérable sur les utilisateurs finaux, car l'automatisation est au cœur des processus métier."
+      ]
+    },
+    {
+      "intent": "program.admission",
+      "utterances": [
+        "admission",
+        "critères d'admission",
+        "Quelles sont les conditions d'admission"
+      ],
+      "answers": [
+        "Pour vous inscrire, vous devez être titulaire d'un baccalauréat en technologies de l'information ou d'un titre équivalent (minimum 3 années d'études), ainsi que d'une certification de compétence en anglais de niveau B2."
+      ]
+    },
+    {
+      "intent": "program.fees",
+      "utterances": ["fees", "program fees", "fees to be paid"],
+      "answers": [
+        "Les frais de scolarité sont d'environ 250 euros par an (en tant que programme d'excellence, le Master 2IS n'applique pas les frais différentiels pour les étudiants étrangers). Pour tous les détails, consultez la page web du bureau des relations internationales. <https://www.ut-capitole .fr/international-/international-student-registration-fees-838362.kjsp>"
+      ]
+    },
+    {
+      "intent": "program.scholarships",
+      "utterances": [
+        "Bourses d'études",
+        "bourse",
+        "Quel type d'aide financière ou de bourses sont disponibles pour le programme?",
+        "Y a-t-il des subventions ou des bourses disponibles?",
+        "Puis-je obtenir une aide financière pour participer au programme?"
+      ],
+      "answers": [
+        "Notre université ne fournit pas de bourses ni de logements étudiants. Les bourses Eiffel sont disponibles au niveau national, la date limite interne est généralement en novembre de l'année précédente. Un prix d'environ 500 euros est décerné par la Faculté d'informatique aux étudiants de première classe pendant la première année de master."
+      ]
+    },
+    {
+      "intent": "program.costs",
+      "utterances": [
+        "coûts de la vie",
+        "coût de la vie à toulouse",
+        "coût de la vie",
+        "combien ça coûte de vivre à toulouse"
+      ],
+      "answers": [
+        "Le coût de la vie à Toulouse est d'environ 800€ par mois, avec un logement aux alentours de 300/400 euros par mois pour une chambre en colocation ou un petit studio. La sécurité sociale en France est gratuite pour tous les étudiants (ou soumise à une petite cotisation d'environ 100 euros par an). Consultez notre guide de l'étudiant pour plus d'informations.",
+        "Toulouse accueille plus de 14.000 étudiants internationaux, et l'Université de Toulouse propose des services dédiés pour faciliter votre arrivée -> Toul'Box : des forfaits personnalisables que vous pouvez acheter avant votre arrivée, vous fournissant un compte bancaire, une assurance maladie, une carte SIM. .. jusqu'à la recherche d'un logement pour vous (fourchette de prix 400-600 EUR par mois) -> Welcome Desk : le premier lieu à visiter à l'arrivée, fournit un soutien à tous les futurs étudiants, avec un bureau dédié aux demandes de visa. est un guide sur le logement étudiant rédigé par le bureau des relations internationales de l'UT Capitole <https://www.ut-capitole.fr/campus/practical-information/accommodation-858871.kjsp?RH=1541674311657> L'Université Toulouse Capitole Le campus est idéalement situé dans le centre-ville, avec des cafés de coworking à proximité et entouré d'un environnement dynamique de startups."
+      ]
+    },
+    {
+      "intent": "program.job",
+      "utterances": [
+        "Offre d'emploi",
+        "carrière",
+        "Les perspectives de carrière",
+        "emplois possibles",
+        "opportunités d'emploi",
+        "Quel est le taux de placement des diplômés du programme ?",
+        "Dans quelle mesure les diplômés réussissent-ils à trouver un emploi?",
+        "Quel genre d'opportunités de carrière sont disponibles pour les diplômés du programme?"
+      ],
+      "answers": [
+        "Les étudiants diplômés MIAGE ont une combinaison unique de compétences techniques et commerciales, ce qui garantit une forte employabilité dans le secteur du logiciel ou du conseil. Les postes typiques occupés par les étudiants diplômés MIAGE sont analyste d'affaires, consultant en gestion et informatique, gestion de projet informatique, consultant BI, grand consultant en données, analyste logiciel, analyste de données, architecte logiciel innovant et entrepreneur logiciel.",
+        "Les diplômés de MIAGE possèdent un mélange distinctif d'expertise technique et commerciale, ce qui les rend très recherchés dans les industries du logiciel et du conseil. Certains des rôles communs occupés par les anciens de MIAGE incluent analyste d'affaires, consultant en gestion et informatique, gestion de projet informatique, consultant BI , consultant big data, analyste logiciel, analyste de données, architecte logiciel innovant et entrepreneur logiciel, ils ont également effectué des stages dans des entreprises renommées telles que Capgemini, Continental, Amazon.de, Airbus, LEGOS, Gisaia, R++, Volkswagen China, Sopra Steria, Roamler NL et Dassault."
+      ]
+    },
+    {
+      "intent": "university.organizers",
+      "utterances": [
+        "IRIT",
+        "instituts",
+        "institut",
+        "les organisateurs",
+        "organisateur",
+        "Qui sont les organisateurs du programme ?"
+      ],
+      "answers": [
+        "Le programme est organisé par des chercheurs de l'IRIT (Institut de Recherche en Informatique de Toulouse), l'un des principaux instituts français d'informatique"
+      ]
+    },
+    {
+      "intent": "program.comparison",
+      "utterances": [
+        "Comment le programme se compare-t-il à des programmes similaires dans d'autres établissements?",
+        "Qu'est-ce qui distingue ce programme des autres?",
+        "Qu'est-ce qui rend ce programme unique par rapport aux autres?"
+      ],
+      "answers": [
+        "Le programme mentionne que les programmes MIAGE, dont ce programme fait partie, sont portés par plus de 20 universités en France."
+      ]
+    },
+    {
+      "intent": "program.accreditation",
+      "utterances": [
+        "Le programme est-il accrédité ?",
+        "Quelles sont les accréditations du programme ?",
+        "Quel genre de reconnaissance le programme a-t-il ?"
+      ],
+      "answers": ["Le programme ne mentionne pas s'il est accrédité."]
+    },
+    {
+      "intent": "program.time",
+      "utterances": [
+        "Le programme est-il à temps plein ou à temps partiel?",
+        "Combien d'heures par semaine est le programme?",
+        "Puis-je suivre le programme tout en travaillant?"
+      ],
+      "answers": ["Le programme est à temps plein."]
+    },
+    {
+      "intent": "program.studentguide",
+      "utterances": [
+        "guide de l'étudiant",
+        "télécharger le guide de l'étudiant"
+      ],
+      "answers": [
+        "https://miage.ut-capitole.fr/medias/fichier/student-guide-4-_1552993620961-pdf?ID_FICHE=284273&INLINE=FALSE"
+      ]
+    },
+    {
+      "intent": "program.teacherguide",
+      "utterances": [
+        "guide de l'enseignant",
+        "télécharger le guide de l'enseignant"
+      ],
+      "answers": [
+        "https://miage.ut-capitole.fr/medias/fichier/teachersguide_1496225970468-pdf?ID_FICHE=284273&INLINE=FALSE"
+      ]
+    },
+    {
+      "intent": "program.location",
+      "utterances": ["emplacement du campus", "plan du campus"],
+      "answers": [
+        "http://www.ut-capitole.fr/campus/practical-information/how-to-get-to-the-university/how-to-get-to-the-university-364795.kjsp"
+      ]
+    },
+    {
+      "intent": "program.structure",
+      "utterances": [
+        "la structure",
+        "structuration du programme",
+        "Comment le programme est-il structuré?"
+      ],
+      "answers": [
+        "Le premier semestre du programme, intitulé 'Fondamentaux' couvre un large éventail de sujets, y compris l'intelligence d'affaires, l'analyse de données, la gestion de projet, la programmation avancée, l'analyse et la conception de logiciels, les langues étrangères (français ou anglais), les compétences non techniques, le développement personnel , atelier de recherche 1 et projet de semestre 1. Le deuxième semestre, 'Vers l'innovation', comprend des cours sur la modélisation des processus métier, l'intelligence artificielle, les services Web, le marketing et l'entrepreneuriat, les langues étrangères, les compétences relationnelles, le développement personnel, l'atelier de recherche 2 et un stage ou projet de semestre 2. Le troisième semestre, 'Innovation en informatique', se penche sur la gestion innovante des données, la cybersécurité, l'internet des objets et le développement Web, les sujets avancés en intelligence artificielle, les systèmes d'information durables, l'interface utilisateur et l'expérience utilisateur, la stratégie et l'innovation, langue étrangère et atelier de recherche 3. Le dernier semestre, 'Innovation en Action' est un stage de 5 mois en entreprise, suivi obtenu par un examen final et vaut 20 ECTS.",
+        "Le programme est divisé en quatre semestres, chacun avec un objectif spécifique. Le premier semestre, 'Fondamentaux' couvre une variété de sujets tels que l'intelligence d'affaires, l'analyse de données et la programmation. Le second semestre, 'Vers l'innovation' comprend des cours sur les affaires la modélisation des processus, l'intelligence artificielle et le marketing. Le troisième semestre, « L'innovation dans l'informatique » se concentre sur des sujets tels que la gestion innovante des données et la cybersécurité. Le dernier semestre, « L'innovation en action » est un stage de 5 mois avec un examen final au fin, d'une valeur de 20 ECTS."
+      ]
+    },
+    {
+      "intent": "program.structure",
+      "utterances": [
+        "Combien de semestres avons-nous ?",
+        "nombre de semestres"
+      ],
+      "answers": ["4 semestres"]
+    },
+    {
+      "intent": "program.syllabus",
+      "utterances": [
+        "programme",
+        "syllabus du programme",
+        "télécharger le programme",
+        "Quel est le programme du programme"
+      ],
+      "answers": [
+        "Le descriptif de chaque cours se trouve dans le livret Syllabus. <https://miage.ut-capitole.fr/medias/fichier/syllabus-2021-22-1-_1647337940227-pdf?ID_FICHE=284273&INLINE=FALSE>"
+      ]
+    },
+    {
+      "intent": "program.teaching",
+      "utterances": [
+        "enseignement",
+        "méthodes d'enseignement",
+        "méthodes pédagogiques innovantes"
+      ],
+      "answers": [
+        "A la Faculté des Technologies de l'Information de l'Université Toulouse Capitole, nous promouvons des méthodes pédagogiques innovantes : projets capstone, classes inversées et serious games. Nous allons au-delà de l'enseignement des hard skills, en proposant des formations sur les soft skills comme le travail en équipe et les cours de communication."
+      ]
+    },
+    {
+      "intent": "program.credits",
+      "utterances": [
+        "Crédit de cours",
+        "crédits",
+        "crédits du programme",
+        "Quels sont les crédits pour chaque cours ?"
+      ],
+      "answers": [
+        "Au semestre 1, le cours 'Business intelligence' vaut 4 ECTS, 'Data analytics' vaut 4 ECTS, 'Management de projet et agilité' vaut 5 ECTS, 'Programmation avancée en Java' vaut 4 ECTS, 'Analyse de logiciels' et design' vaut 4 ECTS, 'Langue étrangère (français ou anglais)' vaut 6 ECTS, 'Compétences relationnelles et développement personnel' vaut 4 ECTS, 'Atelier de recherche 1' vaut 2 ECTS, et 'Projet de semestre 1' vaut 2 ECTS Au semestre 2, le cours 'Modélisation des processus métiers' vaut 5 ECTS, 'Intelligence artificielle' vaut 5 ECTS, 'Services Web' vaut 5 ECTS, 'Marketing et entrepreneuriat' vaut 5 ECTS,' 'Langue étrangère (français ou anglais)' vaut 6 ECTS, 'Compétences relationnelles et développement personnel' vaut 4 ECTS, 'Atelier de recherche 2' vaut 2 ECTS et 'Stage ou projet de semestre 2' vaut 3 ECTS. 3, le cours 'Gestion innovante des données' vaut 6 ECTS et comprend une 'semaine projet', 'Cybersécurité' vaut 2 ECTS, 'Internet des objets et web d développement' vaut 6 ECTS et comprend une 'semaine de projet', 'Thèmes avancés en intelligence artificielle' vaut 6 ECTS et comprend une 'semaine de projet', 'Systèmes d'information durables' vaut 2 ECTS, 'Interface utilisateur et expérience utilisateur' vaut 2 ECTS et comprend une « semaine projet », « Stratégie et innovation » vaut 5 ECTS, « Langue étrangère (français ou anglais) » vaut 3 ECTS et « Atelier de recherche 3 » vaut 2 ECTS. Au semestre 4, les étudiants effectueront un 'stage en entreprise' de 5 mois et passeront un 'examen final' d'une valeur de 20 ECTS."
+      ]
+    },
+    {
+      "intent": "program.courses",
+      "utterances": [
+        "combien de cours?",
+        "cours",
+        "cours du programme",
+        "Quels sont les cours que nous suivrons dans le programme?",
+        "quels sont les cours?"
+      ],
+      "answers": [
+        "Le programme est divisé en quatre semestres, chacun avec son propre objectif et ses propres objectifs. Au premier semestre, les étudiants couvriront les fondamentaux, en suivant des cours tels que Business Intelligence, Data Analytics, Project Management and Agility, Advanced Programming in Java, Software Analysis and Design, et une langue étrangère (français ou anglais).Ils suivront également les cours Soft Skills and Personal Development, Research Workshop 1 et Term Project 1. Au second semestre, les étudiants passeront à Towards Innovation, en suivant des cours tels que Business Process Modélisation, Intelligence Artificielle, Services Web, Marketing et Entrepreneuriat, et une Langue Étrangère.Ils suivront également le cours Soft Skills et Développement Personnel, Atelier de Recherche 2, et auront la possibilité de choisir entre un Stage ou un Projet de Terme 2. Au troisième semestre, les étudiants se concentreront sur l'innovation dans l'informatique, en suivant des cours tels que la gestion innovante des données, la cybersécurité, l'Internet des objets et le développement Web, les sujets avancés dans Artifici al Intelligence, Systèmes d'Information Durables, Interface Utilisateur et Expérience Utilisateur, et Stratégie et Innovation. Ils suivront également un Atelier Langues Etrangères et Recherche 3. Au quatrième semestre, les étudiants effectueront un stage de 5 mois en entreprise puis passeront l'examen final qui vaut 20 ECTS."
+      ]
+    },
+    {
+      "intent": "program.students",
+      "utterances": [
+        "Combien d'étudiants sont inscrits au programme?",
+        "Quel est le nombre d'inscriptions?",
+        "Combien y a-t-il d'élèves dans chaque classe?",
+        "Quelle est la taille de la classe?"
+      ],
+      "answers": ["Le programme comprend généralement de 15 à 30 étudiants"]
+    },
+    {
+      "intent": "application.apply",
+      "utterances": [
+        "application",
+        "date limite d'inscription",
+        "présenter une demande",
+        "documents requis",
+        "comment postuler à partir de",
+        "inscrire",
+        "Comment puis-je m'inscrire"
+      ],
+      "answers": [
+        "Selon votre région, le processus sera différent. Envoyez le bot 'Campus France' si vous êtes des pays Campus France, envoyez 'Europe' si vous venez d'Europe et envoyez 'France' si vous êtes des étudiants français, ou des étudiants internationaux titulaires d'un baccalauréat français. Les candidatures se composent d'un CV, de relevés de notes, d'une lettre de motivation et d'une preuve de maîtrise de l'anglais (niveau CEF B2 requis)."
+      ]
+    },
+    {
+      "intent": "application.campusfrance",
+      "utterances": ["campus france", "Postuler via campus france"],
+      "answers": [
+        "Étudiants internationaux des pays Campus France : postulez au bureau local de Campus France et via la plateforme Etudes En France <https://pastel.diplomatie.gouv.fr/etudesenfrance/dyn/public/authentification/login.html?codeLangue=FR > Toutes les informations sur la page internet du bureau des relations internationales de l'université <https://www.ut-capitole.fr/preparing-your-arrival/procedures-d-admission/hors-programmes/titulaires-de-diplomes -etrangers-candidats-fr-l3-m1-377644.kjsp?RH=1347958954523>"
+      ]
+    },
+    {
+      "intent": "application.europe",
+      "utterances": ["Europe", "Postuler depuis l'Europe"],
+      "answers": [
+        "Etudiants internationaux des pays de l'UE ou hors Campus France : Les candidatures sont généralement ouvertes en mars-avril sur le portail de l'université qui sera en lien ici. Entretien et réponse en avril-mai."
+      ]
+    },
+    {
+      "intent": "application.france",
+      "utterances": ["france", "Postuler depuis la France"],
+      "answers": [
+        "Etudiants français, ou étudiants internationaux titulaires d'une licence française : Ouverture des candidatures en avril-mai. Entretiens et réponse en juin."
+      ]
+    },
+    {
+      "intent": "application.start",
+      "utterances": ["quand le programme commence-t-il", "date de début"],
+      "answers": [
+        "Habituellement, le programme commence en septembre, envoyez 'candidature' pour savoir comment postuler au programme."
+      ]
+    },
+    {
+      "intent": "application.campusfrancecountries",
+      "utterances": [
+        "pays campus france",
+        "pays inclus dans campus france",
+        "mon pays campus france"
+      ],
+      "answers": [
+        "Algeria, Argentina, Azerbaijan, Bahrain, Benin, Bolivia, Brazil, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Chile, China, Colombia, Comoros, Congo (Brazzaville), Côte d'Ivoire, Djibouti, Ecuador, Egypt, Gabon, Georgia, Ghana, Guinea, Haiti, Saudi Arabia, South Africa, United Arab Emirates, United States, India, Indonesia, Iran, Japan, Jordan, Kenya, Kuwait, Laos, Lebanon, Madagascar, Malaysia, Mali, Mauritania, Mauritius, Mexico, Morocco, Niger, Nigeria, Peru, Qatar, Russia, Senegal, Singapore, Taiwan, Thailand, Togo, Tunisia, Turkey, Ukraine, United Arab Emirates, United Kingdom, United States and Vietnam"
+      ]
+    },
+    {
+      "intent": "application.alternance",
+      "utterances": ["L'alternance est-elle une option ?", "alternance"],
+      "answers": [
+        "Il n'y a pas d'alternance dans ce programme",
+        "l'alternance n'est pas une option dans ce programme"
+      ]
+    }
+  ]
+}
