@@ -197,6 +197,9 @@ class DirectlineController {
                 })
                 .then((nlpresult) => {
                   if (nlpresult.answer) {
+                    if (noAnswer[conversation.conversationId] && noAnswer[conversation.conversationId] == 1) {
+                      noAnswer[conversation.conversationId] = 0;
+                    }
                     result.text = nlpresult.answer;
                     log('message', 'debug', `ID: ${conversation.conversationId}, question: ${nlpresult.message}, answer found, intent: ${nlpresult.intent}, intent score: ${nlpresult.score}, language: ${nlpresult.language}`);
                   } else {
